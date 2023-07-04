@@ -97,7 +97,7 @@ lottie_fire = load_assets("https://assets8.lottiefiles.com/packages/lf20_uu7qI3.
 
 img_path = Path(__file__).parents[0]
 logo_img = Image.open(f"{img_path}/Images/Logo.png")
-mask_img = Image.open(f"{img_path}/Images/A_symbol.jpg")
+mask_img = Image.open(f"{img_path}/Images/A_Symbol.jpg")
 
 # Header section
 with st.container():
