@@ -96,8 +96,8 @@ col = db["Winter23Attendees"]
 lottie_fire = load_assets("https://assets8.lottiefiles.com/packages/lf20_uu7qI3.json")
 
 img_path = Path(__file__).parents[0]
-logo_img = Image.open(f"{img_path}/images/Logo.png")
-mask_img = Image.open(f"{img_path}/images/A_symbol.jpg")
+logo_img = Image.open(f"{img_path}/Images/Logo.png")
+mask_img = Image.open(f"{img_path}/Images/A_symbol.jpg")
 
 # Header section
 with st.container():
