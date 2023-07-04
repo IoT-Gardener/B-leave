@@ -239,7 +239,7 @@ with st.container():
             label="Horse fighters",
             value=no_horse_fighters,
             delta=no_horse_fighters-no_duck_fighters,
-            help="The number of people who would rather fight 42 horse size ducks"
+            help="The number of people who would rather fight 42 duck size horses"
         )
     with metrics_r:
         # Add metric with number of duck fighters
@@ -247,7 +247,7 @@ with st.container():
             label="Duck fighters",
             value=no_duck_fighters,
             delta=no_duck_fighters-no_horse_fighters,
-            help="The number of people who would rather fight 42 horse size ducks"
+            help="The number of people who would rather fight 1 horse size duck"
         )
 
     # Create two columns for insights
