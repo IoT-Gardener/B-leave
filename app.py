@@ -147,7 +147,7 @@ with st.container():
 
     with survey_r:
         # Add multi choice to select dates
-        dates = st.multiselect('Which date(s) work for you?', ['Week of 09/10', 'Week of 16/10'])
+        dates = st.multiselect('Which date(s) work for you? (You can select multiple options)', ['Week of 09/10', 'Week of 16/10'])
         # Add radio button to select what you are
         role = st.radio("I am:", ('a B-Leaver', 'a B-Wife', 'still suffering', 'other'))
 
